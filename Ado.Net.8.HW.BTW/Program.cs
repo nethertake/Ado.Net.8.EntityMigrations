@@ -36,6 +36,7 @@ namespace Ado.Net._8.HW.BTW
                     smtp.Host = "smtp.gmail.com"; //Or Your SMTP Server Address
                     smtp.Credentials = new System.Net.NetworkCredential("timur.samig@gmail.com", "password");
 
+
                     smtp.EnableSsl = true;
                     smtp.Send(mail);
                     Console.WriteLine("Письмо отправлено");
