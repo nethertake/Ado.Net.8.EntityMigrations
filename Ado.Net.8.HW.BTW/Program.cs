@@ -31,6 +31,7 @@ namespace Ado.Net._8.HW.BTW
                     string Body = "Database was changed";
                     mail.Body = Body;
 
+
                     mail.IsBodyHtml = true;
                     SmtpClient smtp = new SmtpClient();
                     smtp.Host = "smtp.gmail.com"; //Or Your SMTP Server Address
